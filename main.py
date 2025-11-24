@@ -18,11 +18,11 @@ class MainApp:
 
     def start_client(self):
         # Start the client script
-        subprocess.Popen(['python', 'MultipleFiles/client.py'])
+        subprocess.Popen(['python', 'client.py'])
 
     def start_server(self):
         # Start the server script
-        subprocess.Popen(['python', 'MultipleFiles/server.py'])
+        subprocess.Popen(['python', 'server.py'])
 
 if __name__ == "__main__":
     root = tk.Tk()

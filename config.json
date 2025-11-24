@@ -1,0 +1,23 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 5000,
+    "buffer_size": 4096,
+    "save_path": "received_files",
+    "max_connections": 5
+  },
+  "client": {
+    "port": 5000,
+    "buffer_size": 4096,
+    "connection_timeout": 10,
+    "scan_timeout": 0.1
+  },
+  "security": {
+    "encryption_key": "SecureFileTransfer2024_LongKey32Bytes!"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "file_transfer.log",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  }
+}
